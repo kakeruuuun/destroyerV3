@@ -1,4 +1,4 @@
-update=2016年12月10日土曜日 15:27:41
+update=2018年01月27日 土曜日 15:39:44
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=lib
@@ -109,14 +119,5 @@ LibName77=Worldsemi
 LibName78=Xicor
 LibName79=xilinx
 LibName80=Zilog
-LibName81=lib/micromouse2016
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName81=lib/destroyerV3
+LibName82=lib/MCU_ST_STM32

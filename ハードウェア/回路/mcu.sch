@@ -9,8 +9,6 @@ LIBS:analog_devices
 LIBS:analog_switches
 LIBS:atmel
 LIBS:audio
-LIBS:battery_management
-LIBS:bbd
 LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:cmos4000
@@ -75,12 +73,12 @@ LIBS:transistors
 LIBS:ttl_ieee
 LIBS:valves
 LIBS:video
-LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-LIBS:micromouse2016
-LIBS:micromouse2016-cache
+LIBS:destroyerV3
+LIBS:MCU_ST_STM32
+LIBS:destroyerV3-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693

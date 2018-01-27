@@ -6,6 +6,12 @@ K ampliop
 F http://www.ti.com/lit/ds/symlink/rc4558.pdf
 $ENDCMP
 #
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
 $CMP LM2902N
 D Quad Op amp.
 K AmpliOp
@@ -40,6 +46,18 @@ K ampliop
 F ns/lm158.pdf
 $ENDCMP
 #
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP LMC6062
 D Dual Op amp (low power)
 K ampliop
@@ -62,6 +80,12 @@ $CMP NE5532
 D Dual Op amp (low noice)
 K ampliop
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
+$ENDCMP
+#
+$CMP NMJ2845
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP TL072
