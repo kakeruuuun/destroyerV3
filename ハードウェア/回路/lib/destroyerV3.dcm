@@ -82,6 +82,12 @@ K ampliop
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
 $ENDCMP
 #
+$CMP NJM2845
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP NMJ2845
 D Linear Regulator +5V
 K POWER REGUL
