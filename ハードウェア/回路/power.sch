@@ -117,12 +117,6 @@ F 3 "" H 2050 3400 50  0000 C CNN
 $EndComp
 Text GLabel 2250 3350 2    60   Output ~ 0
 GND
-Wire Wire Line
-	2450 2800 3850 2800
-Wire Wire Line
-	1650 2900 1650 3350
-Wire Wire Line
-	1650 3350 2250 3350
 $Comp
 L CONN_01X02 P3
 U 1 1 57E4D5B0
@@ -134,8 +128,6 @@ F 3 "" H 2400 2600 50  0000 C CNN
 	1    2400 2600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2350 2800 1650 2800
 $Comp
 L PWR_FLAG #FLG013
 U 1 1 57E4D9CB
@@ -158,7 +150,6 @@ F 3 "" H 1850 3350 50  0000 C CNN
 	1    1850 3350
 	1    0    0    -1  
 $EndComp
-Connection ~ 2700 2800
 $Comp
 L R R1
 U 1 1 57E56C7B
@@ -192,17 +183,6 @@ F 3 "" H 2950 3800 50  0000 C CNN
 	1    2950 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 3800 2950 3700
-Wire Wire Line
-	2950 3400 2950 3300
-Connection ~ 2950 2800
-Wire Wire Line
-	1850 3350 1850 3350
-Connection ~ 1850 3350
-Wire Wire Line
-	2050 3400 2050 3350
-Connection ~ 2050 3350
 $Comp
 L 7805 U?
 U 1 1 5A6C2C9B
@@ -225,8 +205,6 @@ F 3 "" H 4250 3300 50  0000 C CNN
 	1    4250 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 3100 4250 3300
 $Comp
 L +3.3V #PWR?
 U 1 1 5A6C2E68
@@ -238,8 +216,6 @@ F 3 "" H 5850 2800 50  0000 C CNN
 	1    5850 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 2800 6050 2800
 $Comp
 L PWR_FLAG #FLG?
 U 1 1 5A6C2EAA
@@ -273,19 +249,6 @@ F 3 "" H 4850 3050 50  0000 C CNN
 	1    4850 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 2800 3700 2900
-Connection ~ 3700 2800
-Wire Wire Line
-	4850 2800 4850 2900
-Connection ~ 4850 2800
-Wire Wire Line
-	3700 3200 3700 3250
-Wire Wire Line
-	3700 3250 4850 3250
-Wire Wire Line
-	4850 3250 4850 3200
-Connection ~ 4250 3250
 $Comp
 L NJM2845 U?
 U 1 1 5A6C31F1
@@ -297,13 +260,6 @@ F 3 "" H 4250 3950 50  0000 C CNN
 	1    4250 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 2800 3350 3900
-Wire Wire Line
-	3350 3900 3850 3900
-Connection ~ 3350 2800
-Wire Wire Line
-	4650 3900 6050 3900
 $Comp
 L +5V #PWR?
 U 1 1 5A6C33D6
@@ -326,12 +282,6 @@ F 3 "" H 5450 3850 50  0000 C CNN
 	1    5450 3850
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 3900
-Wire Wire Line
-	5450 3850 5450 3900
-Wire Wire Line
-	5450 2750 5450 2800
-Connection ~ 5450 2800
 $Comp
 L C C?
 U 1 1 5A6C3634
@@ -354,6 +304,75 @@ F 3 "" H 4700 4100 50  0000 C CNN
 	1    4700 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A6C37A3
+P 4250 4450
+F 0 "#PWR?" H 4250 4200 50  0001 C CNN
+F 1 "GND" H 4250 4300 50  0000 C CNN
+F 2 "" H 4250 4450 50  0000 C CNN
+F 3 "" H 4250 4450 50  0000 C CNN
+	1    4250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 2800 2    60   Output ~ 0
+5V
+Text GLabel 6050 3900 2    60   Output ~ 0
+3.3V
+Text GLabel 6050 4100 2    60   Output ~ 0
+3.3V_AN
+Text GLabel 3200 2550 2    60   Output ~ 0
+BATT
+Wire Wire Line
+	2450 2800 3850 2800
+Wire Wire Line
+	1650 2900 1650 3350
+Wire Wire Line
+	1650 3350 2250 3350
+Wire Wire Line
+	2350 2800 1650 2800
+Connection ~ 2700 2800
+Wire Wire Line
+	2950 3800 2950 3700
+Wire Wire Line
+	2950 3400 2950 3300
+Connection ~ 2950 2800
+Wire Wire Line
+	1850 3350 1850 3350
+Connection ~ 1850 3350
+Wire Wire Line
+	2050 3400 2050 3350
+Connection ~ 2050 3350
+Wire Wire Line
+	4250 3100 4250 3300
+Wire Wire Line
+	4650 2800 6050 2800
+Wire Wire Line
+	3700 2800 3700 2900
+Connection ~ 3700 2800
+Wire Wire Line
+	4850 2800 4850 2900
+Connection ~ 4850 2800
+Wire Wire Line
+	3700 3200 3700 3250
+Wire Wire Line
+	3700 3250 4850 3250
+Wire Wire Line
+	4850 3250 4850 3200
+Connection ~ 4250 3250
+Wire Wire Line
+	3350 2800 3350 3900
+Wire Wire Line
+	3350 3900 3850 3900
+Connection ~ 3350 2800
+Wire Wire Line
+	4650 3900 6050 3900
+Connection ~ 5450 3900
+Wire Wire Line
+	5450 3850 5450 3900
+Wire Wire Line
+	5450 2750 5450 2800
+Connection ~ 5450 2800
 Wire Wire Line
 	4700 3900 4700 3950
 Connection ~ 4700 3900
@@ -369,29 +388,17 @@ Connection ~ 3750 3900
 Wire Wire Line
 	4250 4200 4250 4450
 Connection ~ 4250 4400
-$Comp
-L GND #PWR?
-U 1 1 5A6C37A3
-P 4250 4450
-F 0 "#PWR?" H 4250 4200 50  0001 C CNN
-F 1 "GND" H 4250 4300 50  0000 C CNN
-F 2 "" H 4250 4450 50  0000 C CNN
-F 3 "" H 4250 4450 50  0000 C CNN
-	1    4250 4450
-	1    0    0    -1  
-$EndComp
-Text GLabel 6050 2800 2    60   Output ~ 0
-5V
 Connection ~ 5850 2800
-Text GLabel 6050 3900 2    60   Output ~ 0
-3.3V
 Connection ~ 5850 3900
 Wire Wire Line
 	5850 3850 5850 4100
 Wire Wire Line
 	5850 4100 6050 4100
-Text GLabel 6050 4100 2    60   Output ~ 0
-3.3V_AN
 Wire Wire Line
 	2950 2800 2950 2900
+Wire Wire Line
+	3200 2550 3150 2550
+Wire Wire Line
+	3150 2550 3150 2800
+Connection ~ 3150 2800
 $EndSCHEMATC
