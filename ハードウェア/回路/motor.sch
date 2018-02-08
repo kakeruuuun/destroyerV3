@@ -83,7 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 14
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"

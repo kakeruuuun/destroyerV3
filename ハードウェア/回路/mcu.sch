@@ -83,7 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 12
+Sheet 3 14
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"
@@ -722,15 +722,11 @@ Wire Wire Line
 Wire Wire Line
 	12450 4700 12900 4700
 Wire Wire Line
-	12450 4900 12600 4900
-Wire Wire Line
-	12600 4900 12600 4700
+	12450 4900 12900 4900
 Wire Wire Line
 	12450 4800 12900 4800
 Wire Wire Line
-	12450 5000 12750 5000
-Wire Wire Line
-	12750 5000 12750 4800
+	12450 5000 12900 5000
 Wire Wire Line
 	3650 7200 3850 7200
 Wire Wire Line
@@ -949,8 +945,6 @@ F 3 "" H 8600 2000 50  0000 C CNN
 	1    8600 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 12600 4700
-Connection ~ 12750 4800
 NoConn ~ 3850 5500
 NoConn ~ 3850 5600
 Wire Wire Line
@@ -1035,4 +1029,8 @@ Wire Wire Line
 	14050 5900 14150 5900
 Wire Wire Line
 	14150 5900 14150 6000
+Text HLabel 12900 4900 2    60   Output ~ 0
+IR_LED3
+Text HLabel 12900 5000 2    60   Output ~ 0
+IR_LED2
 $EndSCHEMATC
