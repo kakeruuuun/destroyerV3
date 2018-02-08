@@ -83,7 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 14
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"
@@ -122,7 +122,7 @@ F16 "IMU_SCK" O L 4200 2800 60
 F17 "IMU_MISO" I L 4200 3000 60 
 F18 "IMU_MOSI" O L 4200 2900 60 
 F19 "IMU_INT" I L 4200 3100 60 
-F20 "IR_LED2" O R 6500 4450 60 
+F20 "IR_LED2" O R 6500 4400 60 
 $EndSheet
 $Sheet
 S 2300 2600 1100 600 
@@ -200,9 +200,9 @@ $EndSheet
 Wire Wire Line
 	6500 4150 6950 4150
 Wire Wire Line
-	6500 4450 8150 4450
+	6500 4400 8150 4400
 Wire Wire Line
-	8150 4450 8150 4150
+	8150 4400 8150 4150
 Wire Wire Line
 	8150 4150 8300 4150
 Wire Wire Line
@@ -267,4 +267,32 @@ Text HLabel 6500 4650 0    60   Input ~ 0
 IR_LED3
 Text HLabel 6500 4850 0    60   Input ~ 0
 IR_LED4
+$Sheet
+S 6950 4500 1050 350 
+U 5A7BA3DA
+F0 "ir_transmitter3" 60
+F1 "ir_transmitter.sch" 60
+$EndSheet
+$Sheet
+S 8300 4500 1050 350 
+U 5A7BA12B
+F0 "ir_transmitter4" 60
+F1 "ir_transmitter.sch" 60
+$EndSheet
+Text HLabel 6950 4650 2    60   Output ~ 0
+IN
+Text HLabel 8300 4650 2    60   Output ~ 0
+IN
+Wire Wire Line
+	6500 4650 6950 4650
+Wire Wire Line
+	6500 4850 6700 4850
+Wire Wire Line
+	6700 4850 6700 5000
+Wire Wire Line
+	6700 5000 8200 5000
+Wire Wire Line
+	8200 5000 8200 4650
+Wire Wire Line
+	8200 4650 8300 4650
 $EndSCHEMATC
