@@ -113,9 +113,7 @@ IN
 Text GLabel 6100 3300 0    60   Input ~ 0
 3.3V
 Wire Wire Line
-	6300 3150 6300 3300
-Wire Wire Line
-	6300 3300 6300 3500
+	6300 3150 6300 3500
 Wire Wire Line
 	6100 3300 6300 3300
 $Comp

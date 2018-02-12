@@ -286,11 +286,7 @@ IN
 Wire Wire Line
 	6500 4650 6950 4650
 Wire Wire Line
-	6500 5000 6700 5000
-Wire Wire Line
-	6700 5000 6700 5000
-Wire Wire Line
-	6700 5000 8200 5000
+	6500 5000 8200 5000
 Wire Wire Line
 	8200 5000 8200 4650
 Wire Wire Line
