@@ -83,11 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
-Sheet 1 14
-=======
 Sheet 1 13
->>>>>>> モータドライバ
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"
@@ -104,34 +100,6 @@ F0 "power" 60
 F1 "power.sch" 60
 $EndSheet
 $Sheet
-<<<<<<< HEAD
-S 4200 2400 2300 2700
-U 57CD84A5
-F0 "mcu" 60
-F1 "mcu.sch" 60
-F2 "MOTOR11" O L 4200 3500 60 
-F3 "MOTOR12" O L 4200 3600 60 
-F4 "MOTOR21" O L 4200 4350 60 
-F5 "MOTOR22" O L 4200 4450 60 
-F6 "ENC1A" I L 4200 3950 60 
-F7 "ENC1B" I L 4200 4050 60 
-F8 "IR_LED1" O R 6500 4150 60 
-F9 "IR_SENSOR3" I R 6500 3500 60 
-F10 "IR_SENSOR4" I R 6500 3850 60 
-F11 "IR_SENSOR1" I R 6500 2800 60 
-F12 "IR_SENSOR2" I R 6500 3150 60 
-F13 "ENC2A" I L 4200 4750 60 
-F14 "ENC2B" I L 4200 4850 60 
-F15 "IMU_CS" O L 4200 2700 60 
-F16 "IMU_SCK" O L 4200 2800 60 
-F17 "IMU_MISO" I L 4200 3000 60 
-F18 "IMU_MOSI" O L 4200 2900 60 
-F19 "IMU_INT" I L 4200 3100 60 
-F20 "IR_LED2" O R 6500 4400 60 
-$EndSheet
-$Sheet
-=======
->>>>>>> モータドライバ
 S 2300 2600 1100 600 
 U 57E48CF3
 F0 "imu" 60
@@ -336,37 +304,5 @@ Wire Wire Line
 Wire Wire Line
 	3900 4750 4200 4750
 Wire Wire Line
-<<<<<<< HEAD
-	3400 4850 4200 4850
-Text HLabel 6500 4650 0    60   Input ~ 0
-IR_LED3
-Text HLabel 6500 5000 0    60   Input ~ 0
-IR_LED4
-$Sheet
-S 6950 4500 1050 350 
-U 5A7BA3DA
-F0 "ir_transmitter3" 60
-F1 "ir_transmitter.sch" 60
-$EndSheet
-$Sheet
-S 8300 4500 1050 350 
-U 5A7BA12B
-F0 "ir_transmitter4" 60
-F1 "ir_transmitter.sch" 60
-$EndSheet
-Text HLabel 6950 4650 2    60   Output ~ 0
-IN
-Text HLabel 8300 4650 2    60   Output ~ 0
-IN
-Wire Wire Line
-	6500 4650 6950 4650
-Wire Wire Line
-	6500 5000 8200 5000
-Wire Wire Line
-	8200 5000 8200 4650
-Wire Wire Line
-	8200 4650 8300 4650
-=======
 	3900 4850 4200 4850
->>>>>>> モータドライバ
 $EndSCHEMATC

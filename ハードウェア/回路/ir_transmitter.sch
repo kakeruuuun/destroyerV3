@@ -83,11 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
-Sheet 11 14
-=======
 Sheet 8 13
->>>>>>> モータドライバ
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"
@@ -98,16 +94,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-<<<<<<< HEAD
-L LED D11
-U 1 1 57DFA58F
-P 6300 3700
-AR Path="/57CD846F/57DFA58F" Ref="D11"  Part="1" 
-AR Path="/57E50252/57DFA58F" Ref="D13"  Part="1" 
-AR Path="/5A7BA3DA/57DFA58F" Ref="D13"  Part="1" 
-AR Path="/5A7BA12B/57DFA58F" Ref="D11"  Part="1" 
-F 0 "D11" H 6300 3800 50  0000 C CNN
-=======
 L LED D3
 U 1 1 57DFA58F
 P 6300 3700
@@ -116,18 +102,13 @@ AR Path="/57CD846F/57DFA58F" Ref="D2"  Part="1"
 AR Path="/5A7BA3DA/57DFA58F" Ref="D4"  Part="1" 
 AR Path="/5A7BA12B/57DFA58F" Ref="D5"  Part="1" 
 F 0 "D2" H 6300 3800 50  0000 C CNN
->>>>>>> モータドライバ
 F 1 "SFH4550" H 6300 3600 50  0000 C CNN
 F 2 "micromouse2016:LED_5mm_angle" H 6300 3700 50  0001 C CNN
 F 3 "" H 6300 3700 50  0000 C CNN
 	1    6300 3700
 	0    -1   -1   0   
 $EndComp
-<<<<<<< HEAD
-Text HLabel 6200 4350 0    60   Input ~ 0
-=======
 Text HLabel 6050 4350 0    60   Input ~ 0
->>>>>>> モータドライバ
 IN
 Text GLabel 6100 3300 0    60   Input ~ 0
 3.3V
@@ -136,12 +117,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 3300 6300 3300
 $Comp
-<<<<<<< HEAD
-L +3.3V #PWR?
-U 1 1 5A7BFBA8
-P 6300 3150
-F 0 "#PWR?" H 6300 3000 50  0001 C CNN
-=======
 L +3.3V #PWR036
 U 1 1 5A7BFBA8
 P 6300 3150
@@ -150,7 +125,6 @@ AR Path="/57CD846F/5A7BFBA8" Ref="#PWR035"  Part="1"
 AR Path="/5A7BA3DA/5A7BFBA8" Ref="#PWR037"  Part="1" 
 AR Path="/5A7BA12B/5A7BFBA8" Ref="#PWR038"  Part="1" 
 F 0 "#PWR038" H 6300 3000 50  0001 C CNN
->>>>>>> モータドライバ
 F 1 "+3.3V" H 6300 3290 50  0000 C CNN
 F 2 "" H 6300 3150 50  0000 C CNN
 F 3 "" H 6300 3150 50  0000 C CNN
@@ -158,15 +132,6 @@ F 3 "" H 6300 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-<<<<<<< HEAD
-	6300 4350 6200 4350
-Connection ~ 6300 3300
-$Comp
-L R R?
-U 1 1 5A7C5658
-P 6300 4100
-F 0 "R?" V 6380 4100 50  0000 C CNN
-=======
 	6300 4350 6050 4350
 Connection ~ 6300 3300
 $Comp
@@ -178,7 +143,6 @@ AR Path="/57CD846F/5A7C5658" Ref="R6"  Part="1"
 AR Path="/5A7BA3DA/5A7C5658" Ref="R8"  Part="1" 
 AR Path="/5A7BA12B/5A7C5658" Ref="R9"  Part="1" 
 F 0 "R6" V 6380 4100 50  0000 C CNN
->>>>>>> モータドライバ
 F 1 "75" V 6300 4100 50  0000 C CNN
 F 2 "" V 6230 4100 50  0000 C CNN
 F 3 "" H 6300 4100 50  0000 C CNN

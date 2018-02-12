@@ -83,11 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-<<<<<<< HEAD
-Sheet 4 14
-=======
 Sheet 3 13
->>>>>>> モータドライバ
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"

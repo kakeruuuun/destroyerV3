@@ -83,11 +83,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-<<<<<<< HEAD
-Sheet 3 14
-=======
 Sheet 12 13
->>>>>>> モータドライバ
 Title "MIZUHO"
 Date "2016/12/10"
 Rev "1"
@@ -722,19 +718,11 @@ Wire Wire Line
 Wire Wire Line
 	12450 4700 12750 4700
 Wire Wire Line
-<<<<<<< HEAD
-	12450 4900 12900 4900
-Wire Wire Line
-	12450 4800 12900 4800
-Wire Wire Line
-	12450 5000 12900 5000
-=======
 	12450 4900 12750 4900
 Wire Wire Line
 	12450 4800 12750 4800
 Wire Wire Line
 	12450 5000 12750 5000
->>>>>>> モータドライバ
 Wire Wire Line
 	3650 7200 3850 7200
 Wire Wire Line
@@ -1034,12 +1022,6 @@ Wire Wire Line
 	14050 5900 14150 5900
 Wire Wire Line
 	14150 5900 14150 6000
-<<<<<<< HEAD
-Text HLabel 12900 4900 2    60   Output ~ 0
-IR_LED3
-Text HLabel 12900 5000 2    60   Output ~ 0
-IR_LED2
-=======
 Text HLabel 12750 4700 2    60   Output ~ 0
 IR_LED3
 Text HLabel 12750 4800 2    60   Output ~ 0
@@ -1060,5 +1042,4 @@ Wire Wire Line
 	12450 7500 12650 7500
 Text HLabel 12650 7500 2    60   Output ~ 0
 STNDBY
->>>>>>> モータドライバ
 $EndSCHEMATC
